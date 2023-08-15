@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Height, width, border and background</title>
+    <style>
+        #firstPara{
+            background-color: #c542f5;
+            height: 100px;
+            width: 455px;
+            border-width: 5px;
+            border-color: rgb(141, 168, 50);
+            border-style: solid;
+            border-radius: 10px;
+            /* Border radius for all corners */
+
+        }
+
+        #secondPara{
+            background-color:rgba(41, 102, 86, 0.588);
+            height: 100px;
+            width: 455px;
+            border-top: 12px solid violet;
+            border-right: 12px solid red;
+            border-left: 12px solid green;
+            border-bottom: 12px solid blue;
+            border-top-left-radius: 15px;
+            border-bottom-right-radius: 20px;
+            /* Region specific radius of border */
+        }
+        #thirdPara{
+            height: 1000px;
+            width: 455px;
+            background-image:url('vk_100.jpg');
+            border: 2px;
+            background-repeat: no-repeat;
+            background-position: center 20px;
+        }
+    </style>
+</head>
+<body>
+    <h3>This is heading</h3>
+    <p id="firstPara">This is first paragraph</p>
+    <p id="secondPara">This is second paragraph</p>
+    <p id="thirdPara">This is third paragraph</p>
+</body>
+</html>
