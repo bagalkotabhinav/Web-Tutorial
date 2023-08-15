@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors and designing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Ubuntu', sans-serif;
+        }
+        .container{
+            border: 2px solid red;
+            background-color: beige;
+            padding: 33px;
+            margin: 33px auto;
+            width: 600px;
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover,button:hover{
+            color: blueviolet;
+            background-color:chartreuse;
+        }
+        a:visited{
+            color: blueviolet;
+        }
+        .btn{
+            background-color: aqua;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            border-radius: 9px;
+            font-style: oblique;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont1">
+        <h3>My heading</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, quis. Tenetur asperiores, adipisci facere blanditiis autem debitis aperiam velit itaque eum. Hic incidunt commodi unde iste distinctio. Praesentium, nulla quidem.</p>
+        <a href="https://google.com" class="btn">Read More</a>
+        <button class="btn">Contact Us</button>
+    </div>
+</body>
+</html>

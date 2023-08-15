@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        /* Universal selector */
+        *{
+            box-sizing: border-box;
+            /* margin: 0px;
+            padding: 0px; */
+        }
+        body{
+            background-color: aqua;
+        }
+        .container{
+            color: black;
+            background-color: blanchedalmond;
+            border: 3px solid rgb(6, 19, 94);
+
+            /* padding: 20px; 
+            padding-top: 20px;
+            padding-bottom: 20px;  */
+
+            /* margin: 50px; */
+            /* margin-bottom: 50px;
+            margin-left: 50px;
+            margin-right: 50px;
+            margin-top: 50px; */
+
+            /* padding/margin/border radius: top right bottom left; */
+            padding: 25px 30px 50px 44px;
+            margin: 25px 25px 25px 150px;
+            border-radius: 25px;
+            /* border-radius: 25px 30px 45px 60px; */
+            width: 500px;
+            box-sizing:border-box;
+        }
+        /* #first{
+            background-color: blanchedalmond;
+        }
+        #second{
+            background-color: blanchedalmond;
+        }
+        #third{
+            background-color: blanchedalmond;
+        } */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h3 id="first">This is my heading</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, maiores? Libero nulla error autem reiciendis sint a voluptates ducimus ea!</p>
+    </div>
+    <div class="container">
+        <h3 id="second">This is my heading</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, maiores? Libero nulla error autem reiciendis sint a voluptates ducimus ea!</p>
+    </div>
+    <div class="container">
+        <h3 id="third">This is my heading</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Unde, maiores? Libero nulla error autem reiciendis sint a voluptates ducimus ea!</p>
+    </div>
+</body>
+</html>

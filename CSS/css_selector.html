@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selector</title>
+
+    <!-- CSS by IDs, Classes or tags -->
+    <!-- # to target ID, . to target class, tagname to target all tags of that name-->
+
+    <style>
+        /* Class Selector : group of elements*/
+        .redElement{
+            color: red;
+        }
+        /* ID Selector : just one element*/
+        #one{
+            background-color: blueviolet;
+        }
+        /* Tag/ element Selector Also grouping Selector */
+        footer,span{
+            background-color: palevioletred;
+        }
+    </style>
+</head>
+<body>
+    <h3>CSS Selectors</h3>
+    <p id="one" class="redElement">To show CSS Selectors</p>
+    <p id="two" class="redElement">New para</p>
+    <div>
+        <p>Another new para</p>
+        <span>This is span</span>
+    </div>
+    <footer>This is footer</footer>
+</body>
+</html>
